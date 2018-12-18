@@ -1,7 +1,31 @@
 /*Stylesheet*/
 
+body{
+    background-image: url(../images/mariobackground.png);
+    background-size: auto;
+    max-width: 700px;
+}
+
+
 .gem-image{
     height: 100px;
     width: 100px;
 }
 
+.title{
+    font-family: 'Monofett', cursive;
+    color: #2BAF04;
+    background-color: #e6e9ff;
+    display: inline-block;
+}
+
+.text{ 
+    color: #2BAF04;
+    background-color: #e6e9ff;
+    align-content: center;
+
+}
+
+.container{
+    max-width: 500px;
+}
