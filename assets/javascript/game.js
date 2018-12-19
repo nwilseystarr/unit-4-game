@@ -12,29 +12,28 @@ $(document).ready(function() {
         $("#score").html("Score: 0");
     
     var compPick = [];
-
-
+    
+    
     //Win or Lose Popup functions
-        function losepopup() {
-            $("#lose-popup").show();
-        }            
+    function losepopup() {
+        $("#lose-popup").show();
+    }            
         
-        function winpopup() {
-            $("#win-popup").show();
-        }      
+    function winpopup() {
+        $("#win-popup").show();
+    }      
 
 
     //Win or Lose Popup Button Action 
-        //Lose
-        $("#btn").on("click", function() {
-            $("#lose-popup").hide();
-     });
+    //Lose
+    $("#lose-btn").on("click", function() {
+        $("#lose-popup").hide();
+    });
 
-        //Win
-        $("#btn").on("click", function() {
-            $("#win-popup").hide();
-         });
-    
+    //Win
+    $("#win-btn").on("click", function() {
+        $("#win-popup").hide();
+    });           
 
      //stop script from running before reset 
 
@@ -98,5 +97,4 @@ $(document).ready(function() {
                reset();
             }
            });
-
     });
