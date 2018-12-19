@@ -2,7 +2,6 @@
 
 //document ready function
 $(document).ready(function() {
-
     var wins = 0;
         $("#wins").html("Wins: " + wins);
     
@@ -13,7 +12,32 @@ $(document).ready(function() {
         $("#score").html("Score: 0");
     
     var compPick = [];
+
+
+    //Win or Lose Popup functions
+        function losepopup() {
+            $("#lose-popup").show();
+        }            
+        
+        function winpopup() {
+            $("#win-popup").show();
+        }      
+
+
+    //Win or Lose Popup Button Action 
+        //Lose
+        $("#btn").on("click", function() {
+            $("#lose-popup").hide();
+     });
+
+        //Win
+        $("#btn").on("click", function() {
+            $("#win-popup").hide();
+         });
     
+
+     //stop script from running before reset 
+
     reset()
     
     //RESET FUNCTION==========================================
@@ -52,8 +76,7 @@ $(document).ready(function() {
     
         }   
     //==========================================RESET FUNCTION
-    
-    
+
        //on click event calling the img tag
        $("img").on("click", function() {
 
@@ -63,17 +86,17 @@ $(document).ready(function() {
 
            //if else statement
            if (score == compPick) {
-               alert("YOU WIN!");
+               winpopup();
                wins ++;
                $("#wins").html("Wins: " + wins);
                reset(); 
                  
            } else if (score > compPick) {
-               alert("YOU LOSE!");
+               losepopup();
                losses ++;
                $("#losses").html("Losses: " + losses);
                reset();
             }
-    
            });
+
     });

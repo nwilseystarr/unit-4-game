@@ -15,7 +15,8 @@
 
 <body>
     <!--The Container-->
-    <div class="container">
+    <div class="container center-block">
+
         <!--Row One-->
         <div class="row">
             <div class="col">
@@ -25,19 +26,34 @@
 
         <!--Row Two-->
         <div class="row">
+            <!--Column-->
             <div class="col">
-             <blockquote class="text" class="instructions"> The "Crystals" number at the start of the game is a random number.
-            <br>    
-            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.    
-            <br>
-            You win the game by matching your total score to the "Crystals" number, you lose the game if your total score goes above the random number.
-            <br>
-            The value of each crystal is hidden from you until you click on it.
-            <br>
-            Each time when the game starts, the game will change the values of each crystal.
-            </blockquote>
+                <blockquote class="text" class="instructions"> The "Crystals" number at the start of the game is a random number.
+                <br>    
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.    
+                <br>
+                You win the game by matching your total score to the "Crystals" number, you lose the game if your total score goes above the random number.
+                <br>
+                The value of each crystal is hidden from you until you click on it.
+                <br>
+                Each time when the game starts, the game will change the values of each crystal.
+                </blockquote>
+            </div>
         </div>
+
+        <!--Lose PopUp-->
+        <div id=lose-popup class=popup>
+            You Lost<br><br>
+            <button id="btn" type="button" class="btn btn-light">Try again!</button>
         </div>
+
+        <!--Lose PopUp-->
+        <div id=win-popup class=popup>
+            You Win<br><br>
+                <button id="btn" type="button" class="btn btn-light">Play again!</button>
+            </div>
+
+
         <!--Row Three-->
         <div class="row">
             <!--Column-->
@@ -62,12 +78,25 @@
             </div>         
         </div>
 
-        <!--Row Five-->    
-        <img class=gem-image id=gem-1 src="assets/images/gem-1.png" alt="Gem-1">
-        <img class=gem-image id=gem-2 src="assets/images/gem-2.png" alt="Gem-2">
-        <img class=gem-image id=gem-3 src="assets/images/gem-3.png" alt="Gem-3">
-        <img class=gem-image id=gem-4 src="assets/images/gem-4.png" alt="Gem-4">
-    
+        <!--Row Five-->  
+        <div class="row">
+            <!--Column-->
+            <div class ="col">
+                <img class=gem-image id=gem-1 src="assets/images/gem-1.png" alt="Gem-1">
+            </div>  
+            <!--Column-->
+            <div class="col">
+                <img class=gem-image id=gem-2 src="assets/images/gem-2.png" alt="Gem-2">
+            </div>    
+            <!--Column-->
+            <div class="col">
+                <img class=gem-image id=gem-3 src="assets/images/gem-3.png" alt="Gem-3">
+            </div>
+            <!--Column-->
+            <div class="col">
+                <img class=gem-image id=gem-4 src="assets/images/gem-4.png" alt="Gem-4">
+            </div>    
+            </div>  
         <!--Footer-->    
 
     </div>
