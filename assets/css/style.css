@@ -1,15 +1,7 @@
 /*Stylesheet*/
 
-.popup{
-    display: none; 
-    position: absolute;
-    z-index: 100;
-    background-color: #b6de31;
-    width: 20%;
-    text-align: center;
-    left: 40%;
-    top: 20%;
-}
+
+
 
 
 body{
@@ -26,6 +18,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    cursor: pointer;
 }
 
 .title{
@@ -55,3 +48,33 @@ body{
         max-width: 960px;
         padding: 10px 0px;
     }
+
+.btn {
+  background-color: #71b8d6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-txt{
+  color: white;
+  padding: 5%;
+
+}
+
+.popup{
+    display: none; 
+    position: absolute;
+    z-index: 100;
+    background-color: #30b701;
+    width: 20%;
+    Padding-bottom: 2%;
+    text-align: center;
+    left: 40%;
+    top: 20%;
+    color: white;
+}

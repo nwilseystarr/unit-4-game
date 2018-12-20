@@ -50,7 +50,7 @@ $(document).ready(function() {
        //compPick function with math.floor + 19 to get a number between 19 and 120
        compPick = Math.floor(Math.random() * (120-19))+ 19;
            console.log("Computer Pick: " + compPick);
-           $("#comp-pick").html("Number to guess: " + compPick);
+           $("#comp-pick").html("Crystals to Find: " + compPick);
     
        // gem functions again with the same code
        //var = gem 1 random number function 1-12 +1 (so as to not get zero) use math.random floor to get score
