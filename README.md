@@ -5,5 +5,10 @@
     by clicking them. The goal is to get the exact number of crystals, and not go over or lose the game.
 
 ## Screenshots 
-    [Screenshot](/assets/images/game-screenshot.png)
+<p align="center">
+  <img src="assets/images/game-screenshot.png" width="350" title="hover text">
+ </p>
+    
+        
+      
     
