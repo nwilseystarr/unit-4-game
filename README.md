@@ -1,13 +1,10 @@
 # unit-4-game
 ## Crystal Collector Game
-    A little info about your project and/ or overview that explains what the project is about.
-
-## Motivation 
-    A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+    A game using html, css, bootstrap, javascript, and jquery to collect the correct number of crystals. The user will see the number of crystals to get to and must figure out which crystal holds what value by clicking them. The goal is to get the exact number of crystals, and not go over or lose the game.
 
 ## Screenshots 
-    ![Screenshot](assets/images/game-screenshot.png)
+    [Screenshot](https://i.imgur.com/Y1NKLLO.png)
 
 ## Walk Through
-    Inculde a video of the walkthrough here
+    Include a video of the walk through here
 
